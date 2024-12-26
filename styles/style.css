@@ -1,0 +1,14 @@
+body {
+    background-color: #fcf6e7;
+}
+
+
+.testimg {
+    filter: sepia(100%) brightness(150%);
+    transition: 0.5s;
+    width: 30%;
+}
+
+.testimg:hover {
+    filter: sepia(0) brightness(100%);
+}
