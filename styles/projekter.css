@@ -1,0 +1,100 @@
+.menu li:nth-child(1) {
+    border-bottom: solid var(--accent);
+}
+
+
+
+body {
+    background-color: var(--accent);
+}
+
+h1 {
+    font-family: var(--fr), sans-serif;
+    font-variation-settings: "wght" 600;
+    text-align: center;
+    background-color: var(--base);
+    padding: 0;
+    margin: 0;
+    font-size: 15vw;
+    color: var(--accent);
+    line-height: 15vw;
+    height: 11vw;
+}
+
+
+.projektergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-inline: auto;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.projektergrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.card {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: var(--base);
+    border-radius: 30px;
+}
+
+.card img {
+    width: 25vw;
+    height: auto;
+    padding: 10px;
+    border-radius: 30px;
+    aspect-ratio: 369/173;
+    object-fit: cover;
+    filter: sepia(100%);
+    transition: 0.5s;
+}
+
+.cardtxt a {
+    text-decoration: none;
+    font-family: var(--iv);
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 3vw;
+}
+
+.card img:hover {
+    filter: sepia(0);
+    scale: 1.03;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .projektergrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .projektergrid2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 80%;
+    }
+
+    .card img {
+        width: 80vw;
+        filter: sepia(0);
+    }
+
+    .cardtxt a {
+        font-size: 3rem;
+    }
+
+
+}
