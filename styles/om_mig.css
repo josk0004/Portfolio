@@ -2,6 +2,10 @@ body {
     background-color: var(--base);
 }
 
+.menu li:nth-child(2) {
+    border-bottom: solid var(--accent);
+}
+
 h1 {
     font-family: var(--fr), sans-serif;
     font-variation-settings: "wght" 600;
