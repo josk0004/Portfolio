@@ -1,0 +1,60 @@
+body {
+    background-color: var(--base);
+}
+
+h1 {
+    font-family: var(--fr), sans-serif;
+    font-variation-settings: "wght" 600;
+    text-align: center;
+    background-color: var(--accent);
+    padding: 0;
+    margin: 0;
+    font-size: 15vw;
+    color: var(--base);
+    line-height: 15vw;
+    height: 11vw;
+}
+
+.titelgrid {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 1fr;
+    background-color: var(--accent);
+    gap: 1rem;
+}
+
+.titelgrid button {
+    cursor: pointer;
+    color: var(--accent);
+    background-color: var(--base);
+    font-size: 4vw;
+    align-self: center;
+    text-align: center;
+    margin-left: 3vw;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    margin-bottom: -5rem;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+}
+
+.titelgrid button:hover {
+    color: var(--white);
+}
+
+footer {
+    border-top: 5px solid var(--accent);
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    .titelgrid button {
+        display: none;
+    }
+
+    .titelgrid {
+        grid-template-columns: 1fr;
+    }
+}
