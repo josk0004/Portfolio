@@ -1,0 +1,111 @@
+body {
+    background-color: var(--accent);
+    z-index: -100;
+}
+
+#jodelogo {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: var(--base);
+}
+
+
+
+.forsidegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: var(--accent);
+    margin-inline: 8rem;
+    align-items: center;
+    padding-top: 0;
+    margin-top: 0;
+    gap: 11vw;
+}
+
+.mig img {
+    width: 100%;
+    border-radius: 48px;
+    transition: 0.5s;
+}
+
+.mig {
+    text-align: center;
+    font-family: var(--fr);
+    font-variation-settings: "wght" 400;
+    color: var(--accent);
+    background-color: var(--base);
+    padding: 2rem;
+    border-radius: 50px 50px 0px 0px;
+    height: 100%;
+}
+
+.mig .ommig {
+    display: block;
+    text-decoration: none;
+    color: var(--accent);
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+.mig .ommig:hover {
+    color: var(--white);
+}
+
+.mig img:hover {
+    scale: 1.05;
+}
+
+.fulllist .h2 {
+    font-family: var(--fr);
+    color: var(--base);
+    font-variation-settings: "wght" 400;
+    font-size: 4rem;
+
+}
+
+
+.fulllist {
+    padding-bottom: 2rem;
+}
+
+.fulllist a {
+    font-family: var(--iv);
+    text-decoration: none;
+    color: var(--base);
+    font-size: 1.5rem;
+}
+
+.list li {
+    margin-bottom: 1rem;
+    padding-block: 1rem;
+    border-bottom: solid var(--base);
+}
+
+.list ul {
+    list-style: none;
+}
+
+
+@media screen and (max-width: 1014px) {
+    .mig .ommig {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .forsidegrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-inline: 2rem;
+        gap: 0;
+    }
+
+    .mig .ommig {
+        font-size: 10vw;
+    }
+}
