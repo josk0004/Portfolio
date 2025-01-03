@@ -7,8 +7,10 @@ body {
     display: block;
     width: 100%;
     height: auto;
-    padding: 0;
-    margin: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: -0.6rem;
+    margin-inline: auto;
     background-color: var(--base);
 }
 
@@ -19,9 +21,11 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: var(--accent);
-    margin-inline: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* margin-inline: 8rem; */
     align-items: center;
-    padding-top: 0;
+    padding-top: 1rem;
     margin-top: 0;
     gap: 11vw;
 }
