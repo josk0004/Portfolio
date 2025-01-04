@@ -9,7 +9,7 @@ body {
     height: auto;
     padding-left: 4rem;
     padding-right: 4rem;
-    margin-bottom: -0.6rem;
+    margin-bottom: -0.7vw;
     margin-inline: auto;
     background-color: var(--base);
 }
@@ -51,7 +51,7 @@ body {
     display: block;
     text-decoration: none;
     color: var(--accent);
-    font-size: 4rem;
+    font-size: 6vw;
     padding-top: 1rem;
 }
 

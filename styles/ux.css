@@ -2,6 +2,48 @@ body {
     background-color: var(--base);
 }
 
+/************ https: //www.w3schools.com/howto/howto_js_scroll_to_top.asp *********/
+#myBtn {
+    /* Hidden by default */
+    display: none;
+    /* Fixed/sticky position */
+    position: fixed;
+    /* Place the button at the bottom of the page */
+    bottom: 20px;
+    /* Place the button 30px from the right */
+    right: 30px;
+    /* Make sure it does not overlap */
+    z-index: 99;
+    /* Remove borders */
+    border: none;
+    /* Remove outline */
+    outline: none;
+    /* Set a background color */
+    background-color: var(--accent);
+    /* Text color */
+    color: var(--base);
+    /* Add a mouse pointer on hover */
+    cursor: pointer;
+    /* Some padding */
+    padding: 15px;
+    /* Rounded corners */
+    border-radius: 10px;
+    /* Increase font size */
+    font-size: 30px;
+
+    font-family: var(--iv), sans-serif;
+
+    transition: 0.5s;
+}
+
+#myBtn:hover {
+    /* Add a dark-grey background on hover */
+    background-color: var(--white);
+}
+
+/* *********************************************************************************** */
+
+
 h1 {
     font-family: var(--fr), sans-serif;
     font-variation-settings: "wght" 600;
@@ -31,7 +73,7 @@ h1 {
     align-self: center;
     text-align: center;
     margin-left: 3vw;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     padding-top: 1rem;
     margin-bottom: -5rem;
     border: none;
