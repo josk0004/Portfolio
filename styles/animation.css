@@ -2,6 +2,10 @@ body {
     background-color: var(--base);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /************ https: //www.w3schools.com/howto/howto_js_scroll_to_top.asp *********/
 #myBtn {
     /* Hidden by default */

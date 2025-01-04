@@ -2,6 +2,10 @@ body {
     background-color: var(--base);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /************ https: //www.w3schools.com/howto/howto_js_scroll_to_top.asp *********/
 #myBtn {
     /* Hidden by default */
@@ -365,7 +369,9 @@ h5 {
 
     .mpgrid img,
     .grid_1_2_1 img,
-    .grid_1_2_2 img {
+    .grid_1_2_2 img,
+    .oevelser img,
+    .wf9 img {
         filter: sepia(0);
     }
 
