@@ -3,18 +3,14 @@ body {
     z-index: -100;
 }
 
-@media screen and (min-width: 900px) {
-    header {
-        display: none;
-    }
-}
+
 
 
 #jodelogo {
     display: block;
     width: 100%;
     height: auto;
-    padding-inline: 20vw;
+    padding-inline: 27vw;
     margin-bottom: -0.7vw;
     margin-inline: auto;
     background-color: var(--base);
