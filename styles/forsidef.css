@@ -3,44 +3,37 @@ body {
     z-index: -100;
 }
 
-@media screen and (min-width: 900px) {
-    header {
-        display: none;
-    }
-}
-
-
 #jodelogo {
     display: block;
     width: 100%;
     height: auto;
-    padding-inline: 20vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-bottom: -0.7vw;
     margin-inline: auto;
     background-color: var(--base);
-    padding-top: 0.5rem;
 }
 
 
 
 .forsidegrid {
     display: grid;
-    grid-template-columns: 1.3fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: var(--accent);
-    padding-inline: 20vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* margin-inline: 8rem; */
     align-items: center;
     padding-top: 1rem;
     margin-top: 0;
-    gap: 15vw;
-    height: 59.12vh;
+    gap: 11vw;
 }
 
 .mig img {
-    width: 17vw;
-    border-radius: 30px;
+    width: 100%;
+    border-radius: 48px;
     transition: 0.5s;
-    background-color: var(--base);
 }
 
 .mig {
@@ -49,8 +42,8 @@ body {
     font-variation-settings: "wght" 400;
     color: var(--accent);
     background-color: var(--base);
-    padding: 1rem;
-    border-radius: 30px 30px 0px 0px;
+    padding: 2rem;
+    border-radius: 50px 50px 0px 0px;
     height: 100%;
 }
 
@@ -58,8 +51,8 @@ body {
     display: block;
     text-decoration: none;
     color: var(--accent);
-    font-size: 3vw;
-    margin-top: 1rem;
+    font-size: 6vw;
+    padding-top: 1rem;
 }
 
 .mig .ommig:hover {
@@ -74,8 +67,13 @@ body {
     font-family: var(--fr);
     color: var(--base);
     font-variation-settings: "wght" 400;
-    font-size: 4vw;
+    font-size: 4rem;
 
+}
+
+
+.fulllist {
+    padding-bottom: 2rem;
 }
 
 .fulllist a {
@@ -86,14 +84,21 @@ body {
 }
 
 .list li {
-    padding-block: 0.6rem;
+    margin-bottom: 1rem;
+    padding-block: 1rem;
     border-bottom: solid var(--base);
-    line-height: 1rem;
-    margin-top: 0.5rem;
 }
 
 .list ul {
     list-style: none;
+}
+
+
+@media screen and (max-width: 1014px) {
+    .mig .ommig {
+        font-size: 3rem;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -103,7 +108,6 @@ body {
         padding-left: 2rem;
         padding-right: 2rem;
         gap: 0;
-        height: 100%;
     }
 
     .mig .ommig {
@@ -114,25 +118,5 @@ body {
         padding-left: 2rem;
         padding-right: 2rem;
         margin-bottom: -0.4rem;
-        padding-top: 0;
-    }
-
-    .mig img {
-        width: 100%;
-    }
-
-    .list li {
-        margin-bottom: 1rem;
-        padding-block: 1rem;
-        border-bottom: solid var(--base);
-        margin-top: 0;
-    }
-
-    .fulllist {
-        padding-bottom: 2rem;
-    }
-
-    .fulllist .h2 {
-        font-size: 3rem;
     }
 }

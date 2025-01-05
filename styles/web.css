@@ -131,6 +131,7 @@ footer {
 .list a {
     text-decoration: none;
     color: var(--accent);
+    font-size: 1.3vw;
 }
 
 h2 {
@@ -438,6 +439,10 @@ h5 {
     .flexi h4,
     #wf9 {
         font-size: 2rem;
+    }
+
+    .list a {
+        font-size: 1.3rem;
     }
 
 }

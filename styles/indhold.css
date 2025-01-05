@@ -123,6 +123,7 @@ footer {
 .list a {
     text-decoration: none;
     color: var(--accent);
+    font-size: 1.3vw;
 }
 
 h2 {
@@ -256,4 +257,7 @@ h4 {
         order: 2;
     }
 
+    .list a {
+        font-size: 1.3rem;
+    }
 }
