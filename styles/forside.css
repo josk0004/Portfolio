@@ -26,10 +26,10 @@ body {
     background-color: var(--accent);
     padding-inline: 20vw;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 7vh;
     margin-top: 0;
     gap: 15vw;
-    height: 59.12vh;
+    height: 63.12vh;
 }
 
 .mig img {
@@ -55,7 +55,7 @@ body {
     text-decoration: none;
     color: var(--accent);
     font-size: 3vw;
-    margin-top: 1rem;
+    margin-top: 3vh;
 }
 
 .mig .ommig:hover {
@@ -90,6 +90,10 @@ body {
 
 .list ul {
     list-style: none;
+}
+
+.sealpr {
+    margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 900px) {
