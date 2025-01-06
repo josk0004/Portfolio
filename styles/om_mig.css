@@ -56,6 +56,10 @@ h1 {
     height: fit-content;
 }
 
+.txt p:nth-child(2) {
+    margin-top: 1.3rem;
+}
+
 .mig img {
     width: 100%;
     height: auto;
