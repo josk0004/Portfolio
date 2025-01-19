@@ -121,7 +121,7 @@ footer {
 }
 
 .list a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--accent);
     font-size: min(1.3vw, 1.3rem);
 }
